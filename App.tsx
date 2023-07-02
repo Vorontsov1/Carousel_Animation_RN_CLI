@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import JellyScroll from './screens/JellyScroll.js';
+import Carousel from './screens/Carousel.js';
 
 const App = () => {
   return (
     <View style={{flex: 1}}>
-     <JellyScroll/>
+      <Carousel />
     </View>
   );
 }
